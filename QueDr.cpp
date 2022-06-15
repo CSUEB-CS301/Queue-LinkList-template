@@ -50,7 +50,7 @@ int main() {
                 queue.Enqueue(item);
                 outFile << item << " is enqueued." << endl;
             } else if (command == "Dequeue") {
-                queue.Dequeue(item);
+                item = queue.Dequeue();
                 outFile << item << " is dequeued. " << endl;
             } else if (command == "IsEmpty")
                 if (queue.IsEmpty())

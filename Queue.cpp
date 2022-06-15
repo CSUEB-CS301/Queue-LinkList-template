@@ -16,7 +16,7 @@ Queue<T>::Queue()
 template<class T>
 Queue<T>::~Queue()
 {
-    delete[] items;
+
 }
 
 template<class T>
